@@ -19,6 +19,16 @@
       <%= link_to "Login", new_user_session_path %>
     <% end %>
 
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div id="background"></div>
+
+          <%= render "shared/application_nav" %>
+        </div>
+      </div>
+    </div>
+
     <%= yield %>
   </body>
 </html>
